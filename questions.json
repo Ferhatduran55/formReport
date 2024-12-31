@@ -1,0 +1,141 @@
+[
+  {
+    "column": "C",
+    "type": "one_choice",
+    "text": "Coğunlukla hangi alışveriş şeklini kullanırsınız?",
+    "choices": ["Çevrimiçi Alışveriş", "Fiziksel Mağaza Alışverişi"]
+  },
+  {
+    "column": "D",
+    "type": "one_choice",
+    "text": "Çevrimiçi Alışveriş ise Cinsiyetiniz nedir?",
+    "choices": ["Erkek", "Kadın"],
+    "requiring": {
+      "column": "C",
+      "value": "Çevrimiçi Alışveriş"
+    }
+  },
+  {
+    "column": "E",
+    "type": "one_choice",
+    "text": "Fiziksel Mağaza Alışverişi ise Cinsiyetiniz nedir?",
+    "choices": ["Erkek", "Kadın"],
+    "requiring": {
+      "column": "C",
+      "value": "Fiziksel Mağaza Alışverişi"
+    }
+  },
+  {
+    "column": "F",
+    "type": "one_choice",
+    "text": "Aylık bütçenizin ne kadarını online alışverişe ayırırsınız?",
+    "choices": ["0-500", "500-1000", "1000-3000", "3000-5000", "5000+"]
+  },
+  {
+    "column": "G",
+    "type": "multiple_choice",
+    "text": "Hangi kategorilerde harcama yaparsın?",
+    "choices": ["Giyim", "Elektronik", "Kozmetik", "Gıda", "Eğitim"],
+    "other": true
+  },
+  {
+    "column": "H",
+    "type": "one_choice",
+    "text": "En çok kullandığınız online alışveriş platformu?",
+    "choices": ["Sahibinden", "Trendyol", "Hepsiburada", "n11", "Çiçeksepeti"],
+    "other": true
+  },
+  {
+    "column": "I",
+    "type": "one_choice",
+    "text": "Ayda ne sıklıkla online alışveriş yaparsınız?",
+    "choices": ["0-3", "3-5", "5-10", "10+"]
+  },
+  {
+    "column": "J",
+    "type": "one_choice",
+    "text": "En çok tercih ettiğiniz ödeme yöntemi?",
+    "choices": ["Kredi Kartı", "Havale", "Kapıda Ödeme"]
+  },
+  {
+    "column": "K",
+    "type": "one_choice",
+    "text": "Online alıverişlerde ne tür sorunlar yaşarsınız?",
+    "choices": [
+      "Ödeme sorunları",
+      "Farklı ürün gelmesi",
+      "Hatalı ürün gelmesi",
+      "Teslimat gecikmesi"
+    ],
+    "other": true
+  },
+  {
+    "column": "L",
+    "type": "one_choice",
+    "text": "Uygulamaların tanımladığı kampanya ve kuponlar alışveriş sıklığınızı etkiliyor mu?",
+    "choices": ["Evet", "Hayır", "Kısmen"]
+  },
+  {
+    "column": "M",
+    "type": "one_choice",
+    "text": "Yurtdışı online alışveriş platformlarından en çok hangisini kullanıyorsunuz?",
+    "choices": [
+      "Temu",
+      "Aliexpress",
+      "Alibaba",
+      "Amazon",
+      "eBay",
+      "Kullanmıyorum"
+    ],
+    "other": true
+  },
+  {
+    "column": "N",
+    "type": "one_choice",
+    "text": "En çok alışveriş yaptığınız yabancı ülke?",
+    "choices": ["Çin", "Almanya", "Amerika", "Kullanmıyorum"],
+    "other": true
+  },
+  {
+    "column": "O",
+    "type": "one_choice",
+    "text": "Ürün satın almadan önce kullanıcı yorum ve görüşlerini dikkate alır mısınız?",
+    "choices": ["Her zaman", "Sıklıkla", "Ara sıra", "Nadiren", "Hiç"]
+  },
+  {
+    "column": "P",
+    "type": "integer_range",
+    "text": "İnternet üzerinden satın aldığınız ürünlerin kalitesinden ne kadar memnunsunuz?",
+    "range": [1, 5]
+  },
+  {
+    "column": "Q",
+    "type": "one_choice",
+    "text": "Satıcı mağazalarla en çok hangi şekilde iletişim kurarsınız?",
+    "choices": [
+      "E-posta",
+      "Telefon araması",
+      "Yüz yüze",
+      "WhatsApp iletişim hattı",
+      "Canlı Destek"
+    ]
+  },
+  {
+    "column": "R",
+    "type": "one_choice",
+    "text": "Kargo ücreti satın alma kararınızı etkiler mi?",
+    "choices": ["Evet", "Hayır", "Kısmen"]
+  },
+  {
+    "column": "S",
+    "type": "one_choice",
+    "text": "Satın aldığınız ürünü iade etme sıklığınız nedir?",
+    "choices": ["Çoğunlukla", "Ara sıra", "Nadiren", "Hiç"]
+  },
+  {
+    "column": "T",
+    "type": "one_choice",
+    "text": "Gün içerisinde online alışverişe ne kadar zaman ayırırsınız? (Saat)",
+    "choices": ["0-1", "1-3", "3+"]
+  }
+]
